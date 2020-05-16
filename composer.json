@@ -1,0 +1,22 @@
+{
+    "name": "solwin/productlabel",
+    "description": "Magento 2 Product Labels extension allows store owner to display different labels like the Hot (Best Seller), Sale, Featured, New labels on product view and category view.",
+    "type": "magento2-module",
+    "version": "1.0.8",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\ProductLabel\\": ""
+        }
+    }
+}
